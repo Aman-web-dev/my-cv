@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,900&display=swap');
+
+body{
+   font-family: 'Roboto Condensed', sans-serif;;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +43,69 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container-nav-items{
+
+
+  right: 0;
+}
+
+.logo{
+
+  height: 40px;
+  width: 100px;
+}
+
+.nav-link{
+
+font-weight: 400;
+font-family: 'Roboto Condensed', sans-serif;
+cursor: pointer;
+color: white;
+letter-spacing: 0.375rem;
+
+}
+
+.collapse{
+
+display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+nav ul li{
+
+  text-transform: uppercase;
+  transition: border-top 1s;
+}
+
+nav ul li:hover{
+
+  border-top:0.1656rem   solid rgb(241, 187, 9);
+}
+
+
+
+.collapse >ul>li>a{
+
+color: white !important;
+margin-left: 0.75rem;
+
+}
+
+
+.logo{
+
+  max-width: 17.25rem ;
+  padding: 0 !important;
+  height: 3rem !important;
+} 
+
+.navbar{
+  border: 0.2rem solid black;
+  background-color:#12151a !important;
+  color: black;
+}
+
+.navbar-toggler{color: wheat;}
